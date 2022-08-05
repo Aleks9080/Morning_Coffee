@@ -1,0 +1,130 @@
+@media screen and (max-width:1400px) {
+    .container,
+    .wrapp-content{
+        width:1140px;
+    }
+}
+@media screen and (max-width:1140px) {
+    .container,
+    .wrapp-content{
+        width:960px;
+    }
+    .row-contetn-menu{
+        flex-direction: column;
+    }
+    .row-maps{
+        flex-direction: column;
+    }
+    .reservation{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: auto;   
+    }
+    .maps{
+        width: min-content;
+        margin: auto;
+    }
+    .row-menu img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: unset;
+    }
+    .row-menu{
+        padding-bottom: 40px;
+        flex-direction: column;
+    }
+    .row-menu p,span{
+        margin: 0;
+    }
+    .row-menu div{ 
+    flex-direction: column;
+    align-items: center;
+    }
+    .row-menu-coffee{
+        flex-direction: column;
+        align-items: center;
+    }
+    .row-menu-coffee img{
+        margin-top: 10px;
+    }
+    .popular{
+        margin-top: 1340px;
+    }
+    .new-ctory{
+        padding-top: 20px;
+        text-align: center;
+        margin: 0;
+    }   
+  
+    .place-vest-img,
+    .row-menu-coffee{
+        margin: 0;
+    } 
+    .row-nav{
+        justify-content: center;
+    }
+    .header-nav{
+    
+        flex-direction: column;
+    }
+    .nextt-next{
+        margin-top: 15px;
+    }
+    .headerr-logo{
+        padding: 0;
+        margin-bottom: 35px;
+    }
+    .popular{
+        margin: 0;
+    }
+    .row-contetn-menu{
+        padding: 0;
+    }
+ 
+}
+@media screen and (max-width:992px) {
+    .container,
+    .wrapp-content{
+        width:720px;
+    }
+    .row-product{
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-machine{
+        padding: 0;
+    }
+  .latest-new{
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+@media screen and (max-width:768px) {
+    .container,
+    .wrapp-content{
+        width:540px;
+    }
+    .header-nav{
+        align-items: flex-start;
+    }
+    .header-nav ul{
+        flex-direction: inherit;
+        font-size: 23px;
+        align-items: flex-start;
+      }
+      .row-nav{
+        flex-direction: column;
+      }
+      .row-testimonial{
+        flex-direction: column;
+      }
+      .row-machine{
+          flex-direction: column;
+      }
+@media screen and (max-width:576px) {
+    .container,
+    .wrapp-content{
+        width:auto;
+    }
+}

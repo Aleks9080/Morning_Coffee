@@ -1,0 +1,35 @@
+.content-menu{
+    padding-top: 50px;
+
+}
+.row-contetn-menu{
+    padding-bottom: 140px;
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.americano p{
+    font-size: 24px;
+    font-family: 'Righteous';
+    font-weight: 400;
+}
+.americano img{
+    padding-left: 24px;
+}
+.americano span{
+    padding-right: 24px;
+    color: #C99E71;
+}
+.americano{
+    width: 565px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #32323D;
+}
+.americano:not(:last-child){
+    margin-bottom: 36px;
+}

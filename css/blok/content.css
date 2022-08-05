@@ -1,0 +1,281 @@
+.menu {
+    padding-top: 140px;
+}
+.row-menu {  
+    padding-bottom: 550px; 
+    position: relative;
+    display: flex;
+}
+.row-menu div{
+    display: flex;
+}
+.row-nav img{
+    transition: 0.8 ;
+}
+
+.row-nav img{
+    transition: 0.8s ; 
+}
+.row-nav img:hover {
+    transform: scale(1.1); 
+   }
+.row-menu p:hover{
+    color:#C99E71;
+}
+.row-menu p{
+    font-size: 24px;
+    line-height: 30px;
+}
+.row-menu span{
+    color:#C99E71;
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 15px;
+}
+
+.best-coffee p{
+    margin-right: 165px;
+}
+.place-coffe p{
+    margin-right: 214px;
+}
+.img-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
+.best-coffee img{
+    position: absolute;
+    top:  44px;
+    left: 0;
+}
+.place-coffe img{
+    position: absolute;
+    left: 400px;
+    top: 44px;
+}
+.proper-coffe img{
+    position: absolute;
+    left: 810px;
+    top: 44px;
+}
+
+.row-menu-coffee{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu img{
+        transition: 0.8s ; 
+}
+.menu img:hover {
+        transform: scale(1.1); 
+       }
+
+.row-menu-coffee div+div{
+    margin-left:70px ;
+}
+.row-menu-coffee {
+    height: 635px;
+}
+.place-vest-img{
+    margin-right: -130px;
+}
+.new-ctory {
+    padding: 0px 56px 357px 56px;
+    
+     background: #1C1814;
+}
+.our-history {
+    color: #C99E71;
+    line-height: 21%;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.new-ctory h4 {
+    width: 392px;
+    font-family: 'Righteous';
+    font-size: 48px;
+    line-height: 130%;
+    padding-bottom: 36px;
+    
+}
+.text-coffee {
+    font-family: 'Urbanist';
+    font-weight: 500;
+    line-height: 180%;
+    max-width: 398px;
+    font-size: 18px;
+    padding-bottom: 147px;
+}
+.two-img img{
+    width: 330px;
+    height: 635px;   
+}
+.place-vest-img img{
+    margin-bottom:  32px;
+    width: 298px;
+    height: 302px;
+}
+.place-vest-img{
+    height: 635px;
+}
+
+.popular {
+    text-align: center;
+    padding-top: 140px;
+    font-family: 'Urbanist';
+    font-weight: 600;
+    color: #C99E71;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.popular-product {
+    font-family: 'Righteous';
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 56px;
+}
+.row-product {
+    padding-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-shop{
+    padding-bottom: 38px;
+}
+.row-product p,h2,h3{
+    text-align: center;
+}
+.bg-div{
+    padding: 48px 48px 188px 48px;
+    max-width: 366px;
+    height: 579px;
+    background:#121315;
+}
+.row-product h3{
+    font-size: 24px;
+    font-family: 'Righteous';
+    text-transform: uppercase;
+    
+}
+.pokupka-produck p,span{
+    text-transform: uppercase;
+    color: #C99E71;
+}
+.btn-pokupka{
+    background:#C99E71;
+    justify-content: center;
+    display: flex;
+    width: 169px;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+}
+.pad-ot{
+    margin-top: 20px;
+}
+.pad38{
+    padding-top: 36px;
+    margin-bottom: 38px;
+}
+.rating-area {
+    display: flex;
+    align-items: center;
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	width: 32px;
+	padding: 0;
+    margin-left: 12px;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+    
+}
+.rating-area:not(:checked) > label:before {
+	content: '☆';
+    
+}
+.rating-area > input:checked ~ label {
+    color: #C99E71;
+    
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+   
+    color: #C99E71;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+    color: #C99E71;
+    background:#C99E71;
+	text-shadow: 1px 1px  #C99E71;;
+}
+.btn-view-all{
+    background:#C99E71;
+    justify-content: center;
+    display: flex;
+    width: 252px;
+    height: 62px;
+    align-items: center;
+    margin: auto;
+}
+.btn-view-all p{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.info-machine {
+    margin-top: 140px;
+    background: #1C1814;
+    padding: 72px 80px 84px 169px;
+    margin-bottom: 90px;
+}
+.row-machine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-machine-coffee { 
+    padding-left: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-machine-coffee h2{
+    text-align: start;
+    font-size: 48px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    padding-bottom: 36px;   
+}
+.info-machine-coffee p{
+    text-align: start;
+    font-size: 16px;
+    font-family: 'Urbanist';
+    font-weight: 500;
+    padding-bottom: 36px;
+}
+.btn-machine-coffe {
+    background:#C99E71;
+    margin:0;
+    display: flex;
+    width: 205px;
+    height: 62px;
+}
+.btn-machine-coffe a{
+    margin: auto;
+    text-transform: uppercase;
+}

@@ -1,0 +1,45 @@
+.header {
+    width: auto;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    background: #1C1814;
+}
+.wrapp-content {
+    width: 1400px;
+    padding-top: 32px;
+    padding-bottom: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav ul{
+    display: flex;
+
+}
+
+
+.header-nav li{
+    margin-right: 48px;
+}
+
+.header-pages ul {
+    display: flex;
+  
+}
+.row-nav a:hover{
+    color:#C99E71
+}
+.row-nav a{
+    transition: color 0.2s ease;
+}
+
+.header-pages li:not(:last-child){
+    margin-right: 48px;
+}
+

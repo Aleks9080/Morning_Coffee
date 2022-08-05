@@ -1,0 +1,64 @@
+.home {
+    position: relative;
+    padding-bottom: 167px;
+    padding-top: 147px;
+    min-height: 1126px;
+}
+.container {
+    width: 1170px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row-coffee {
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 529px;
+}
+.enjoi {
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 130%;
+    font-family: 'Righteous', cursive;
+
+}
+.enjoi + *{
+    margin-top: 22px;
+}
+.coffee-text {
+    font-weight: 500;
+    line-height: 180%;
+}
+.coffee-text + *{
+    margin-top: 64px;
+}
+.coffee-btn{
+    display: flex;
+}
+.coffee-btn button{
+    padding: 24pxs;
+    color: white;
+    text-transform: uppercase;
+    width: 202px;
+    height: 70px;
+    background: #C99E71;
+    font-size: 18px;
+    line-height: 22px;
+}
+.coffe-bg {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.coffe-bg img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
